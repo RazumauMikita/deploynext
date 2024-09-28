@@ -12,7 +12,7 @@ import awsconfig from "../aws-exports";
 
 import "../styles/reset.css";
 
-Amplify.configure(awsconfig);
+Amplify.configure({ ...awsconfig, ssr: true });
 
 function App({ Component, pageProps }) {
   return (
