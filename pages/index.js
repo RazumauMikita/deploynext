@@ -6,7 +6,7 @@ import { Flex, View } from "@aws-amplify/ui-react";
 import { Footer, Hero, Persuade, TestimonyCollection } from "../ui-components";
 import Layout from "../component/Layout";
 
-function index() {
+function Index() {
   const router = useRouter();
 
   return (
@@ -30,4 +30,4 @@ function index() {
     </Layout>
   );
 }
-export default withAuthenticator(index);
+export default withAuthenticator(Index);
