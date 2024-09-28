@@ -2,7 +2,6 @@ import "../styles/globals.css";
 
 import "@fontsource/inter";
 import "@aws-amplify/ui-react/styles.css";
-
 import { Amplify } from "aws-amplify";
 import { ThemeProvider } from "@aws-amplify/ui-react";
 
